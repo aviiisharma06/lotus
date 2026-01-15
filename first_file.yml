@@ -1,0 +1,6 @@
+---
+  - name: this is fisrt yaml file
+    hosts: all
+    tasks:
+      - name: Display the message
+        debug: Hello World 
